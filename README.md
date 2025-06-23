@@ -1,12 +1,59 @@
-# React + Vite
+# 6.1-Calculadora de Presupuestos-Nivel1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📄 Descripción
 
-Currently, two official plugins are available:
+Aplicación React que permite calcular presupuestos web de forma interactiva. El usuario puede seleccionar servicios, personalizar opciones (como número de páginas o idiomas), enviar su información de contacto y consultar un historial de presupuestos enviados.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 💻 Tecnologías Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- React Router DOM
+
+---
+
+## 📋 Requisitos
+
+- Node.js >= 18.x
+- npm >= 9.x
+
+---
+
+## 🛠️ Instalación
+
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/usuario/6.1-Calculadora-de-Presupuestos-Nivel1.git
+   cd 6.1-Calculadora-de-Presupuestos-Nivel1
+   ```
+
+2. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+
+---
+
+## ▶️ Ejecución
+
+Inicia el servidor de desarrollo:
+```bash
+npm run dev
+```
+Abre [http://localhost:5173](http://localhost:5173) en tu navegador para ver la aplicación.
+
+---
+
+## 🌐 Despliegue
+
+Para generar la versión de producción:
+```bash
+npm run build
+```
+Los archivos listos para producción estarán en la carpeta `dist/`.
+
+---
